@@ -1,27 +1,35 @@
 # HubMovies
+ web de entretenimiento para el curso de semillero de talento de Megacable 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+Descripcion 
+En el sprint 2, se ha trabajado con la estructura del framework angular para poder crear un sitio de entretenimiento de reproducción de peliculas.
 
-## Development server
+Requerimientos Tecnicos 
+Angular 18.0.0
+node.js 22.4.1
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Instalacion 
+Clonar el repositorio en git, descargar el .Zip y tener las versiones de Angular y node mencionadas
 
-## Code scaffolding
+Proceso
+![image](https://github.com/user-attachments/assets/bc6ae35d-72e5-494a-a5fa-ff9856ad4d0a)
+![image](https://github.com/user-attachments/assets/b5a8a3ef-f35c-4505-9c8a-0b5f6bbdadf8)
+![image](https://github.com/user-attachments/assets/6d56fa58-291b-418b-92ce-142ff76ee310)
+![image](https://github.com/user-attachments/assets/88a88c7c-efa8-4407-ab66-2ba6cf4a6ff5)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Proceso
+Estudiar los cursos blindados por liderly y mega , los cuales nos brindan herramientas para el desarrollo asi como tambien ver videos por youtube, generar preguntas en canales dedicados a la programacion
+y una ampli busqueda de como solucionar ciertos problemas que se van presentando 
 
-## Build
+Que salio bien?
+ Las instalaciones de node.js, Angular, aprendi a manejar los modolos de Angular, aprendi a lidiar con algunos errores 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+ ¿Qué puedo hacer diferente?
+ Mejorar acerca la creacion de codigo con angular, asi como tambien dar un mejor diseño a la pagina 
 
-## Running unit tests
+ ¿Qué no salió bien?
+Los entutamientos, la poca experiencia al usar angular y typescript 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
