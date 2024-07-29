@@ -1,9 +1,22 @@
+
+:host{
+ 
+  display: block;
+  background-image: url('https://wallpapers.com/images/hd/collage-of-movie-posters-g2fdqahxlakaa7yq.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Asegura que el fondo cubra toda la altura del componente */
+}
+
+
+
 body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   background: #013466; /*#0984e3*/
-  background-color: #05024c;
+ 
 }
 .box{
   width: 300px;

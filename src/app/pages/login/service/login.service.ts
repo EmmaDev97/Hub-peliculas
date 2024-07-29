@@ -1,5 +1,6 @@
-import { Injectable, PLATFORM_ID, Inject } from '@angular/core';
+import { Injectable, PLATFORM_ID, Inject, inject } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
@@ -7,6 +8,8 @@ import { isPlatformBrowser } from '@angular/common';
 export class LoginService {
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) { }
+
+  router = inject(Router)
 
   login(email: string, password: string) {
     // Simula la autenticación y obtención de token desde el servidor
@@ -22,6 +25,18 @@ export class LoginService {
       return !!localStorage.getItem('token');
     }
     return false;
+  }
+
+
+
+   // desloguear
+
+  logout() {
+    // Eliminar el token del local storage
+    localStorage.removeItem('token');
+    
+    // Redirigir al usuario a la página de inicio de sesión
+    this.router.navigateByUrl("/login")
   }
 
 }

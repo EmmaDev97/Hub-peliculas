@@ -29,7 +29,7 @@ export class LoginComponent {
          if(this.loginService.isLoggedIn)
            this.router.navigateByUrl("/browse");
     
-          }
+          } 
 
    onSubmit(){
        //validacion de correo y contrasena

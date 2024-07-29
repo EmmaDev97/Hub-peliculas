@@ -11,11 +11,7 @@
   }
 
 
-   h2 {
-    color: white;
-    font-size: 30px;
-    
-  }
+
   
   body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -163,57 +159,4 @@
    
   // }
    
-  .contenedor {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-  }
-  
-  .peliculas {
-    max-width: 100%;
-    overflow: hidden; 
-  }
-  
-  .peliculas img {
-    width: 100%;
-    height: auto;
-    max-width: 100%; 
-  }
-  
-  .pie {
-    padding: 20px;
-  }
-  
-  @media (min-width: 768px) {
-    .contenedor {
-      flex-direction: row;
-      align-items: center;
-    }
-  
-    .peliculas {
-      flex: 1;
-      max-width: 300px; 
-      margin-right: 20px;
-      padding-top: 10px;
-    }
-  
-    .pie {
-      flex: 1;
-    }
-  
-    .pie h2 {
-      font-size: 400x; 
-      margin-bottom: 10px; 
-    }
-  
-    .pie p {
-      font-size: 30px; 
-      line-height: 1.6; 
-      margin-bottom: 20px; 
-    }
-  
-    .pie button {
-      font-size: 1.2rem; 
-      padding: 10px 20px; 
-    }
-  }
+ 
